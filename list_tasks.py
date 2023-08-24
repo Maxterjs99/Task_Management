@@ -1,11 +1,6 @@
 import main
 import complete_task
 
-"""
-Este módulo contiene funciones para gestionar tareas.
-"""
-
-
 def show_tasks(tasks):
   print('******Bienvenido al mostrador de tareas******')
   show = int(input('Pulse 1 para mostrar tareas. Pulse 2 para mostrar solo los nombres de las tareas. Pulse 3 para ordenar por prioridad. Pulse 4 para ir a la ventana de tareas completadas. Pulse 5 para volver a la pestaña principal =>'))
