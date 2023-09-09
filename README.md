@@ -15,7 +15,13 @@ This is a simple command-line task management system implemented in Python. It a
 3. Follow the prompts to enter task details such as name, description, priority, and start time.
 
 # How to Run
-1. Clone this repository to your local machine.
-2. Open your terminal and navigate to the project folder.
-3. Run python main.py.
+
+```sh
+git clone
+cd task_manager
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+python3 main.py
+```
 
